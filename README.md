@@ -1,11 +1,11 @@
 Nome do projeto: IMPERIAL
 
 Integrantes:
-Alan Silva dos Santos
-Brenda de Melo da silva
-Bruna Borges Ferreira
-Jonathan Juan da Pena Gomes
-Mateus Nogueira Torres Sousa
-Paulo Roberto Sousa Barreto
+Alan Silva dos Santos - Gerente de Projetos
+Brenda de Melo da silva - Lider de versionamento
+Bruna Borges Ferreira - Documentador
+Jonathan Juan da Pena Gomes - Tester/Validador
+Mateus Nogueira Torres Sousa - Tester/Validador
+Paulo Roberto Sousa Barreto - Documentador
 
 Introdução: Sistema para facilitar a organização de estoque e gerenciar os colaboradores, carga horária, setores e catálogo de produtos.
