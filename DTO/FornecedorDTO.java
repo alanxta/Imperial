@@ -1,4 +1,4 @@
-public class Fornecedornecedor{
+public class Fornecedor{
 
     private int idFornecedor;
     private String cnpjFornecedor;
