@@ -1,3 +1,5 @@
+package DTO;
+
 public class Fornecedor extends Usuario{
 
     private int idFornecedor;
@@ -8,6 +10,18 @@ public class Fornecedor extends Usuario{
     private String enderecoFornecedor;
     private String telefoneFornecedor;
     private String emailFornecedor;
+
+   public Fornecedor(int idFornecedor, String cnpjFornecedor, String nomeFantasiaFornecedor, String razaoSocialFornecedor, String cepFornecedor, String enderecoFornecedor, String telefoneFornecedor, String emailFornecedor, int idUsuario, String nomeUsuario, String emailUsuario, String senhaUsuario, String cpfUsuario, String enderecoUsuario, String telefoneUsuario, int idadeUsuario){
+        super(idUsuario, nomeUsuario, emailUsuario, senhaUsuario, cpfUsuario, enderecoUsuario, telefoneUsuario, idadeUsuario);
+        this.idFornecedor = idFornecedor;
+        this.cnpjFornecedor = cnpjFornecedor;
+        this.nomeFantasiaFornecedor = nomeFantasiaFornecedor;
+        this.razaoSocialFornecedor = razaoSocialFornecedor;
+        this.cepFornecedor = cepFornecedor;
+        this.enderecoFornecedor = enderecoFornecedor;
+        this.telefoneFornecedor = telefoneFornecedor;
+        this.emailFornecedor = emailFornecedor;
+    }
 
     public int getIdFornecedor(){
         return idFornecedor;
@@ -69,14 +83,11 @@ public class Fornecedor extends Usuario{
         this.emailFornecedor = emailFornecedor;
     }
 
-
-
-
-
-
-
-
+    @Override
+    public void mostrarInfo() {
+        super.mostrarInfo();
+        System.out.println("Empresa: " + getNomeFantasiaFornecedor());
+        System.out.println("CNPJ: " + getCnpjFornecedor());
+    }
     
-    
-
 }
