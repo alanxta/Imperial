@@ -1,3 +1,4 @@
+package DTO;
 public class Produto {
 
     private int idProduto;
@@ -13,14 +14,28 @@ public class Produto {
     private String fornecedorProduto;
     private String marcaProduto;
 
+    public Produto(int idProduto, String descricaoProduto, String codigoProduto, float precoCompraProduto, float precoVendaProduto, float margemLucroProduto, int estoqueProduto, String codigoDeBarrasProduto, String grupoProduto, String categoriaProduto, String fornecedorProduto, String marcaProduto) {
+        this.idProduto = idProduto;
+        this.descricaoProduto = descricaoProduto;
+        this.codigoProduto = codigoProduto;
+        this.precoCompraProduto = precoCompraProduto;
+        this.precoVendaProduto = precoVendaProduto;
+        this.margemLucroProduto = margemLucroProduto;
+        this.estoqueProduto = estoqueProduto;
+        this.codigoDeBarrasProduto = codigoDeBarrasProduto;
+        this.grupoProduto = grupoProduto;
+        this.categoriaProduto = categoriaProduto;
+        this.fornecedorProduto = fornecedorProduto;
+        this.marcaProduto = marcaProduto;
+    }
+
+
     public int getIdProduto(){
         return idProduto;
     }
     public void setIdProduto(int idProduto){
         this.idProduto = idProduto;
     }
-
-
 
     public String getDescricaoProduto(){
         return descricaoProduto;
@@ -102,3 +117,5 @@ public class Produto {
     }
 
 }
+
+
