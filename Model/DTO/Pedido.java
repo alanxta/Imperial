@@ -1,3 +1,4 @@
+package DTO;
 public class Pedido{
 
     private int idPedido;
@@ -5,6 +6,14 @@ public class Pedido{
     private double valorTotalPedido;
     private String situacaoPedido;
     private String formaPagamentoPedido;
+
+    public Pedido(int idPedido, String dtHoraPedido, double valorTotalPedido, String situacaoPedido, String formaPagamentoPedido) {
+        this.idPedido = idPedido;
+        this.dtHoraPedido = dtHoraPedido;
+        this.valorTotalPedido = valorTotalPedido;
+        this.situacaoPedido = situacaoPedido;
+        this.formaPagamentoPedido = formaPagamentoPedido;
+    }
 
     public int IdPedido(){
         return idPedido;
