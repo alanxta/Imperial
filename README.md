@@ -3,7 +3,8 @@ Nome do projeto: IMPERIAL
 Integrantes:
 Alan Silva dos Santos - Gerente de Projetos
 Brenda de Melo da silva - Lider de versionamento
-Bruna Borges Ferreira - Documentador
+Bruna Borges Ferreira - Documentadora
+Giovanna Chaves Marques - Documentadora
 Jonathan Juan da Pena Gomes - Tester/Validador
 Mateus Nogueira Torres Sousa - Tester/Validador
 Paulo Roberto Sousa Barreto - Documentador
